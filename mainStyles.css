@@ -1,0 +1,151 @@
+/* brand colors: 
+blue 6999ae
+green b2d681
+tan ebebd7
+brown 514738 */
+
+body {
+    background: mintcream;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #514738;
+    margin: 0px;
+    padding: 0px;
+    background-color: #f5fffa;
+    background-image: url("https://www.transparenttextures.com/patterns/absurdity.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
+}
+
+h1 {
+    color: #514738;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 44pt;
+    float: inline-start;
+}
+
+h2 {
+    color: #514738;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    font-size: 24pt;
+    font-style: italic;
+    float: inline-start;
+}
+
+a {
+    color: #b2d681;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px rgba(81, 71, 56, 30); 
+}
+
+a:hover{
+    color: #514738
+
+}
+
+a:active {
+    color: #514738
+}
+
+p {
+    text-align: justify;
+}
+/* without this the first para in the left column drops a line compared to the other columns */
+p:first-of-type {
+    margin-top: 0px;
+}
+/* this is the div class used for color effect in the nav bar */
+.linkBox {
+    height: 205px;
+    width: 20%;
+    float: left;
+    font-size: 24pt;
+    text-align: center;
+    /* following 2 lines shamelessly stolen from w3schools and edited to shorten delay */
+    -webkit-transition: background 0.5s; /* For Safari 3.0 to 6.0 */
+    transition: background 0.5s; /* For modern browsers */
+
+}
+/* this is the color change effect for the nav bar */
+.linkBox:hover {
+    background:mintcream;
+    background-image: url("https://www.transparenttextures.com/patterns/absurdity.png");
+
+
+}
+/* A 3 column class for longer strings of text */
+.contentBox {
+    height: fit-content;
+    width: 60%;
+    margin: auto;
+    columns: 100px 3;
+    column-gap: 60px;
+}
+
+/* The centered paras div style for About Us */
+.aboutBox {
+    width: 450px;
+    margin: auto;
+
+
+}
+
+/* use for adding an image into a text para */
+.imgInline {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+/* topmost div on page */
+#navbar {
+    background-color: #6999ae;
+    background-image: url("https://www.transparenttextures.com/patterns/corrugation.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    width: 100%;
+    height: 205px;
+
+}
+
+
+/* Just using this to center title text on homepage */
+#topHead {
+    text-align: center;
+
+}
+
+#pagenav {
+    float: left;
+    margin-left: 10%;
+    border-style: solid;
+    border-width: medium;
+    border-color: #b2d681;
+    background-color: #6999ae;
+    background-image: url("https://www.transparenttextures.com/patterns/corrugation.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#clear {
+    clear: both;
+}
+
+.moreStuff{
+    height: 70vh;
+    min-height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+#imageBox {
+    height: 300px;
+    width: 300px;
+    background-image: url('./rftg.jpg');
+    background-position: center;
+}
+
