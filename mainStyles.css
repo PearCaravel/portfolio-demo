@@ -99,6 +99,17 @@ p:first-of-type {
     margin-bottom: 10px;
 
 }
+
+.logoBox {
+    float: left;
+    width: 15vw;
+    height: 15vh;
+    min-width: 50px;
+    min-height: 50px;
+    background-image: url(./Pearavel.svg);
+
+}
+
 /* topmost div on page */
 #navbar {
     background-color: #6999ae;
@@ -133,19 +144,5 @@ p:first-of-type {
     clear: both;
 }
 
-.moreStuff{
-    height: 70vh;
-    min-height: 600px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    
-}
 
-#imageBox {
-    height: 300px;
-    width: 300px;
-    background-image: url('./rftg.jpg');
-    background-position: center;
-}
 
