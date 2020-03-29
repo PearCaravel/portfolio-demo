@@ -17,6 +17,23 @@ body {
 
 }
 
+header {
+    height: 90px;
+    background-color: #6999ae;
+    background-image: url(./images/brushed-alum.png);
+    border-bottom: medium solid #514738;
+    float: left;
+}
+
+#balancer {
+    height: 90px;
+    width: 187px;
+    float: right;
+    background-color: #6999ae;
+    background-image: url(./images/brushed-alum.png);
+    border-bottom: medium solid #514738;
+}
+
 /* Nav Bar Styling */
 #menuOuter {
 	height: 90px;
@@ -38,12 +55,9 @@ ul#horizontalList {
     font-size: 18pt;
     }
 	ul#horizontalList li {
-		display: inline;
+        display: inline;
+        margin-right: 25px;
     }
-
-li {
-    margin-right: 25px;
-}
 
 a {
     text-decoration: none;
@@ -55,10 +69,6 @@ a {
 
 a:hover {
     color: #514738
-}
-  
-#logo {
-    float: left;
 }
 
 .responsive {
@@ -99,7 +109,7 @@ p:first-of-type {
 }
 
 #msgDiv {
-    font-size: 24pt;
+    font-size: 16pt;
     font-style: italic;
     width: 70vw;
     min-width: 300px;
