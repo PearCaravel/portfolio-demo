@@ -101,6 +101,9 @@ p:first-of-type {
 #msgDiv {
     font-size: 24pt;
     font-style: italic;
+    width: 70vw;
+    min-width: 300px;
+    margin: auto;
 }
 
 /* about us styling (mostly identical on more stuff */
