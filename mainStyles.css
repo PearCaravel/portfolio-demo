@@ -4,6 +4,7 @@ green b2d681
 tan ebebd7
 brown 514738 */
 
+
 body {
     background: mintcream;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -11,138 +12,126 @@ body {
     margin: 0px;
     padding: 0px;
     background-color: #f5fffa;
-    background-image: url("https://www.transparenttextures.com/patterns/absurdity.png");
+    background-image: url(./images/absurdity.png);
     /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 
 }
 
-h1 {
-    color: #514738;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-size: 44pt;
-    float: inline-start;
+/* Nav Bar Styling */
+#menuOuter {
+	height: 90px;
+    background-color: #6999ae;
+    background-image: url(./images/brushed-alum.png);
+    overflow: auto;
+    border-bottom: medium solid #514738;
 }
 
-h2 {
-    color: #514738;
-    margin-bottom: 15px;
-    margin-top: 0px;
-    font-size: 24pt;
-    font-style: italic;
-    float: inline-start;
+.table {
+	display: table;   /* Allow the centering to work */
+    margin: 0 auto;
+    padding-top: 5px
+}
+
+ul#horizontalList {
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18pt;
+    }
+	ul#horizontalList li {
+		display: inline;
+    }
+
+li {
+    margin-right: 25px;
 }
 
 a {
-    color: #b2d681;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
-    text-shadow: 1px 1px 2px rgba(81, 71, 56, 30); 
+    color: #b2d681;
+    text-shadow: 1px 1px 2px rgba(81, 71, 56, 30);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
 }
 
-a:hover{
-    color: #514738
-
-}
-
-a:active {
+a:hover {
     color: #514738
 }
+  
+#logo {
+    float: left;
+}
 
-p {
+.responsive {
+    max-height: 85px;
+    width: auto;
+    margin-left: 25px
+}
+
+/* Index Styling */
+h1 {
+    font-size: 36pt;
+    margin: 0
+
+}
+
+h2 {
+    font-size: 24pt;
+    font-style: italic;
+    margin: 0
+}
+
+.title {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.contentBox {
+    columns: 3 100px;
+    width: 70vw;
+    column-gap: 60px;
+    margin: auto;
     text-align: justify;
 }
-/* without this the first para in the left column drops a line compared to the other columns */
+
 p:first-of-type {
     margin-top: 0px;
 }
-/* this is the div class used for color effect in the nav bar */
-.linkBox {
-    height: 205px;
-    width: 20%;
-    float: left;
+
+#msgDiv {
     font-size: 24pt;
-    text-align: center;
-    /* following 2 lines shamelessly stolen from w3schools and edited to shorten delay */
-    -webkit-transition: background 0.5s; /* For Safari 3.0 to 6.0 */
-    transition: background 0.5s; /* For modern browsers */
-
-}
-/* this is the color change effect for the nav bar */
-.linkBox:hover {
-    background:mintcream;
-    background-image: url("https://www.transparenttextures.com/patterns/absurdity.png");
-
-
-}
-/* A 3 column class for longer strings of text */
-.contentBox {
-    height: fit-content;
-    width: 60%;
-    margin: auto;
-    columns: 100px 3;
-    column-gap: 60px;
+    font-style: italic;
 }
 
-/* The centered paras div style for About Us */
+/* about us styling (mostly identical on more stuff */
+.pagenav {
+    background-image: url(./images/brushed-alum.png);
+    background-color: #6999ae;
+    width: fit-content;
+    padding: 15px;
+    border: medium solid #514738;
+    margin-left: 5vw;
+    float: left;
+
+}
+
 .aboutBox {
-    width: 450px;
+    width: 50vw;
+    min-width: 300px;
     margin: auto;
-
-
+    text-align: justify;
 }
 
-/* use for adding an image into a text para */
 .imgInline {
     float: left;
-    margin-right: 10px;
-    margin-bottom: 10px;
-
+    margin-right: 15px;
 }
 
-.logoBox {
-    float: left;
-    width: 15vw;
-    height: 15vh;
-    min-width: 50px;
-    min-height: 50px;
-    background-image: url(./Pearavel.svg);
-
+#what {
+    margin-bottom: 15px;
 }
 
-/* topmost div on page */
-#navbar {
-    background-color: #6999ae;
-    background-image: url("https://www.transparenttextures.com/patterns/corrugation.png");
-    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-    width: 100%;
-    height: 205px;
-
+#seer {
+    width: 30vw;
+    margin: auto;
 }
-
-
-/* Just using this to center title text on homepage */
-#topHead {
-    text-align: center;
-
-}
-
-#pagenav {
-    float: left;
-    margin-left: 10%;
-    border-style: solid;
-    border-width: medium;
-    border-color: #b2d681;
-    background-color: #6999ae;
-    background-image: url("https://www.transparenttextures.com/patterns/corrugation.png");
-    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-#clear {
-    clear: both;
-}
-
-
-

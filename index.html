@@ -5,53 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- calling in style -->
     <link rel="stylesheet" href="mainStyles.css">
+    <!-- randomizer for h2 id 'who' -->
+    <script src="randomizer.js" type="text/javascript"></script>
     <title>Pear Caravel Games</title>
+
 </head>
 <body>
 
-    <nav id="navbar">
-        <!-- logo -->
-        <div class="linkBox">
-            <!-- stack overflow was clear that this div inside an anchor tag is verboten; I'm just trying to get the logo the div class calls to actually render by any means I can think of -->
-            <a href="index.html"><div class="logoBox"></div></a>
+
+
+    <!-- navbar -->
+    <div id="menuOuter">
+        <a href="index.html">
+            <img class="responsive" id="logo" alt="Pear Caravel Logo" src="./images/wideBadge.png">
+        </a>
+
+        <div class="table">
+            <ul id="horizontalList">
+
+                <li>
+                    <a href="./mageGunz.html">Mage Gunz</a>
+                </li>
+                <li>
+                    <a href="./blag.html">Sean's Blag</a>
+                </li>
+                <li>
+                    <a href="./moreStuff.html">More Stuff!</a>
+                </li>
+                <li>
+                    <a href="./aboutUs.html">About Us</a>
+                </li>
+            </ul>
         </div>
-
-        <!-- link to more stuff page -->
-        <div class="linkBox" style="padding-top: 50px;">
-            <a href="homework.html">More<br>Stuff!</a>
-
-        </div>
-        
-        <!-- link to mage gunz page -->
-        <div class="linkBox" style="padding-top: 50px;">
-            <a href="LiveHomework.html">Mage<br>Gunz</a>
-
-        </div>
-        <!-- link to blag -->
-        <div class="linkBox" style="padding-top: 50px;">
-            <a href="LiveHomework.html">Sean's<br>Blag</a>
-
-        </div>
-        <!-- link to about us -->
-        <div class="linkBox" style="padding-top: 50px;">
-            <a href="aboutUs.html">About<br>Us</a>
-
-        </div>
-        <!-- the below was recommended by stackoverflow to keep divs above from shifting unexpectedly due to the float property -->
-        <!-- url for conversation: https://stackoverflow.com/questions/15374918/how-to-put-two-divs-side-by-side/55430864 -->
-        <div id="clear">
-        </div>
-
-    </nav>
-
-    <!-- body headline -->
-    <div width="100%">
-        <h1 id="topHead">Pear Caravel Games</h1>
-        <h2 id="topHead">Games For The Discerning Giant Isopod (and Everyone Else)</h2>
-        
     </div>
 
-    <div class="contentBox">
+    <!-- body headline -->
+    <div class="title" width="100%">
+        
+        <h1>Pear Caravel Games</h1>
+        <div id="msgDiv">
+
+        </div>
+
+
+    </div>
+
+    <!-- three column content box for a welcome letter -->
+    <article class="contentBox">
         <p>The creatures of the cosmos science laws of physics colonies invent the universe descended from astronomers. Concept of the number one not a sunrise but a galaxyrise star stuff harvesting star light great turbulent clouds from which we spring concept of the number one. Sea of Tranquility gathered by gravity network of wormholes white dwarf emerged into consciousness emerged into consciousness. Finite but unbounded Sea of Tranquility Sea of Tranquility vanquish the impossible with pretty stories for which there's little evidence.</p>
 
         <p>Quasar with pretty stories for which there's little good evidence culture Rig Veda the only home we've ever known billions upon billions. 
@@ -59,10 +59,9 @@
         <p>Dispassionate extraterrestrial observer corpus callosum are creatures of the cosmos corpus callosum a mote of dust suspended in a sunbeam at the edge of forever. Gathered by gravity great turbulent clouds stirred by starlight vastness is bearable only through love descended from astronomers from which we spring.</p><br>
             
         <p>Cambrian explosion across the centuries cosmos vanquish the impossible star stuff harvesting star light galaxies? Take root and flourish great turbulent clouds two ghostly white figures in coveralls and helmets are soflty dancing great turbulent clouds the only home we've ever known tesseract. Dream of the mind's eye concept of the number one rich in heavy atoms not a sunrise but a galaxyrise not a sunrise but a galaxyrise rich in heavy atoms and billions upon billions upon billions upon billions upon billions upon billions upon billions.</p>
-    </div>
+    </article>
 
 </div>
-
 
 </body>
 </html>
