@@ -25,7 +25,8 @@ header {
     float: left;
 }
 
-#balancer {
+/* this just pushes the links in the nav ul to center, it uses sizing from the header image SO IF YOU CHANGE THAT, resize this to match */
+.balancer {
     height: 90px;
     width: 187px;
     float: right;
@@ -116,7 +117,15 @@ p:first-of-type {
     margin: auto;
 }
 
+#logo {
+    float: left;
+}
+
 /* about us styling (mostly identical on more stuff */
+h3 {
+    margin: 0px
+}
+
 .pagenav {
     background-image: url(./images/brushed-alum.png);
     background-color: #6999ae;
